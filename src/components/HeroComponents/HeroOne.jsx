@@ -1,27 +1,26 @@
 const HeroOne = () => (
-  <section className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white p-10 lg:p-16 w-full h-full">
-    <h1 className="text-4xl md:text-5xl mb-12 font-semibold uppercase leading-tight">
-      Join Our Global Community
+  <section className="text-white p-10 lg:p-16 w-full h-full">
+    <h1 className="text-4xl md:text-7xl mb-12 font-semibold uppercase leading-tight bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent text-center">
+      Embrace Nature’s Innovation
     </h1>
     <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
       {/* Left: Text Section */}
       <div className="space-y-6">
-        <p className="text-lg md:text-2xl">
-          Connect, collaborate, and grow with like-minded innovators. Whether
-          you're just starting or a seasoned professional, we provide the tools
-          and opportunities you need.
+        <p className="text-lg md:text-2xl text-purple-400">
+          Grow with the harmony of nature. Together, we can create sustainable
+          solutions that inspire and innovate.
         </p>
-        <p className="text-sm md:text-lg">
-          Explore various industries, expand your network, and work on
-          cutting-edge solutions with individuals from around the world.
+        <p className="text-sm md:text-lg text-gray-600">
+          Join a global community committed to blending nature’s wisdom with
+          cutting-edge technology. Let’s shape the future, one step at a time.
         </p>
 
         {/* Buttons */}
         <div className="flex flex-wrap gap-4">
-          <button className="px-8 py-3 bg-transparent border border-white text-white font-semibold rounded-full hover:bg-white hover:text-purple-600 transition duration-300">
+          <button className="w-full sm:w-auto px-8 py-3 bg-transparent border border-pink-400 text-pink-400 font-semibold rounded-full hover:bg-pink-400 hover:text-white transition duration-300">
             Learn More
           </button>
-          <button className="px-8 py-3 bg-pink-600 text-white font-semibold rounded-full shadow-lg hover:bg-pink-700 transition duration-300">
+          <button className="w-full sm:w-auto px-8 py-3 bg-purple-700 text-white font-semibold rounded-full shadow-lg hover:bg-purple-800 transition duration-300">
             Join Now
           </button>
         </div>
@@ -50,7 +49,7 @@ const HeroOne = () => (
     {/* Full-width bottom image */}
     <div className="mt-10">
       <img
-        src="https://images.unsplash.com/photo-1486134030336-39b1094bf33e?q=80&w=1907&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://images.unsplash.com/photo-1607059991241-58ea9e39fd1b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="Global Innovation"
         className="rounded-xl shadow-lg w-full h-64 object-cover"
       />
